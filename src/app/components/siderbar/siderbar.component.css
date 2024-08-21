@@ -1,0 +1,90 @@
+.fondo {
+
+    /* Blanco */
+    background: #FFFFFF;
+    box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.1);
+
+    .siderbar {
+        /* Sidebar */
+
+        position: absolute;
+        width: 80px;
+        height: 100vh;
+        left: 0px;
+        top: 0px;
+
+        .logo {
+            /* Logo */
+
+            position: absolute;
+            width: 36px;
+            height: 32.61px;
+            left: calc(50% - 36px/2 - 0px);
+            top: 24px;
+
+
+        }
+
+        .menu {
+
+
+
+            .dashboard {
+
+
+                /* Dashboard */
+
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                left: 30px;
+                top: 130px;
+
+
+            }
+
+            .monitoreoPorPlanta {
+                /* Monitoreo por planta */
+
+                position: absolute;
+                width: 24px;
+                height: 15px;
+                left: 28px;
+                top: 192px;
+            }
+
+            .historicoSensores {
+                /* Histórico de sensores */
+
+                position: absolute;
+                width: 22px;
+                height: 16.97px;
+                left: 29px;
+                top: 249px;
+            }
+
+            .historicoPlanta {
+                /* Histórico de plantas */
+
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                left: 30px;
+                top: 307.97px;
+            }
+
+            .logOut {
+                /* Cerrar sesión */
+
+                position: absolute;
+                width: 17.79px;
+                height: 18px;
+                left: 31px;
+                top: 369.97px;
+            }
+
+        }
+
+    }
+
+}

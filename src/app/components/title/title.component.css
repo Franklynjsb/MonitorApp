@@ -1,0 +1,20 @@
+.titleMonitoreo {
+    /* Monitoreo global */
+
+    position: relative;
+    width: 257px;
+    height: 45px;
+    left: 110px;
+    top: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+}

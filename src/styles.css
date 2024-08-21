@@ -4,10 +4,3 @@ html, body {
     height: 100%;
 }
 
-.siderbar {
-    height: 100vh;
-    min-height: 100vh;
-    min-width: 160px;
-    text-align: center;
-}
-
