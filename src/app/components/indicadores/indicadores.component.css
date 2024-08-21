@@ -1,0 +1,94 @@
+.card {
+    /* 1 */
+    width: 290px;
+    height: 90px;
+
+    /* background */
+
+    position: relative;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+}
+
+.items {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 34px;
+
+    position: relative;
+    width: 1262px;
+    height: 110px;
+}
+
+.text {
+    /* Temperatura */
+    position: relative;
+    width: 80px;
+    top: 19px;
+    left: 19px;
+
+    p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height */
+
+        color: #8E8EA1;
+    }
+}
+
+.check {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+
+    width: 40px;
+    height: 18px;
+    /* 100 */
+
+    svg {
+        /* Icon */
+        position: relative;
+        width: 14px;
+        height: 14px;
+        left: 19px;
+        top: 15px;
+
+
+    }
+
+    p {
+        top: 21px;
+        left: 19px;
+        position: relative;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height */
+
+        color: #000000;
+    }
+}
+
+.icon {
+    /* Icon */
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 199px;
+    top: calc(50% - 30px);
+
+
+}

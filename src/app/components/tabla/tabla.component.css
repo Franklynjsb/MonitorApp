@@ -1,0 +1,13 @@
+.tabla {
+    /* Fondo */
+
+    position: absolute;
+    width: 1262px;
+    height: 350px;
+    left: 110px;
+    top: 245px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+}

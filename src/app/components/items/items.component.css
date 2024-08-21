@@ -1,0 +1,74 @@
+.card {
+    /* 1 */
+    width: 290px;
+    height: 110px;
+
+    /* Fondo */
+    position: absolute;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.items {
+    /* Items */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 34px;
+
+    position: relative;
+    width: 1262px;
+    height: 110px;
+
+
+}
+
+.text {
+    /* text */
+
+    position: absolute;
+    width: 71px;
+    height: 48px;
+    left: 18px;
+    top: 31px;
+
+    p {
+        /* Lecturas OK */
+        height: 18px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height */
+
+        color: #8E8EA1;
+
+
+    }
+
+    h2 {
+        /* 1.234 */
+        width: 61.04px;
+        height: 30px;
+        left: 18.23px;
+        top: 49px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+
+        /* Black */
+        color: #22242C;
+
+
+    }
+}

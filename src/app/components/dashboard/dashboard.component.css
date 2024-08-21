@@ -1,0 +1,47 @@
+app-items {
+    /* Items */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 34px;
+
+    position: absolute;
+    width: 1262px;
+    height: 110px;
+    left: 110px;
+    top: 115px;
+
+
+}
+
+app -tabla {
+    /* Tabla */
+
+    position: absolute;
+    width: 1262px;
+    height: 350px;
+    left: 110px;
+    top: 245px;
+}
+
+app-indicadores {
+    /* Indicadores */
+
+    position: absolute;
+    width: 1262px;
+    height: 200px;
+    left: 110px;
+    top: 615px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 34px;
+
+
+}
