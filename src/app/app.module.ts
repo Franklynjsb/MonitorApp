@@ -10,6 +10,10 @@ import { ItemsComponent } from './components/items/items.component';
 import { TablaComponent } from './components/tabla/tabla.component';
 import { IndicadoresComponent } from './components/indicadores/indicadores.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +22,14 @@ import { IndicadoresComponent } from './components/indicadores/indicadores.compo
     TopComponent,
     ItemsComponent,
     TablaComponent,
-    IndicadoresComponent
+    IndicadoresComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
