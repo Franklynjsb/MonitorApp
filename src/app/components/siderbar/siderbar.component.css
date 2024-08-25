@@ -3,11 +3,11 @@
     /* Blanco */
     background: #FFFFFF;
     box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1;
 
     .siderbar {
         /* Sidebar */
-
-        position: absolute;
         width: 80px;
         height: 100vh;
         left: 0px;
@@ -15,7 +15,6 @@
 
         .logo {
             /* Logo */
-
             position: absolute;
             width: 36px;
             height: 32.61px;
@@ -26,13 +25,9 @@
         }
 
         .menu {
-
-
-
             .dashboard {
 
-
-                /* Dashboard */
+                /* Dashboard ICONO*/
 
                 position: absolute;
                 width: 20px;
@@ -45,7 +40,6 @@
 
             .monitoreoPorPlanta {
                 /* Monitoreo por planta */
-
                 position: absolute;
                 width: 24px;
                 height: 15px;
@@ -55,7 +49,6 @@
 
             .historicoSensores {
                 /* Histórico de sensores */
-
                 position: absolute;
                 width: 22px;
                 height: 16.97px;
@@ -65,7 +58,6 @@
 
             .historicoPlanta {
                 /* Histórico de plantas */
-
                 position: absolute;
                 width: 20px;
                 height: 20px;
@@ -75,7 +67,6 @@
 
             .logOut {
                 /* Cerrar sesión */
-
                 position: absolute;
                 width: 17.79px;
                 height: 18px;

@@ -1,49 +1,47 @@
 .login {
 
+
     .base {
         /* Base */
+
         position: absolute;
         width: 675px;
-        height: 900px;
-        left: 744px;
-        top: 0px;
+        height: 100vh;
+        right: 0%;
 
         background: #FBFCFC;
         border-radius: 32px 0px 0px 32px;
+        z-index: 1;
 
         .titulo {
             /* Portal de monitoreo */
 
-            position: absolute;
-            width: 368px;
-            height: 55px;
-            left: 142px;
-            top: 260px;
+            position: relative;
+            margin-top: 150px;
+            text-align: left;
+            margin-left: 23%;
 
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
             font-size: 36.4757px;
-            line-height: 55px;
             /* identical to box height */
 
             color: #202020;
+
         }
 
         .logintext {
             /* Iniciar sesión */
 
-            position: absolute;
-            width: 165px;
-            height: 48px;
-            left: 142px;
-            top: calc(50% - 48px/2 - 111px);
+            position: relative;
+            margin-top: 0px;
+            margin-left: 23%;
 
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
             font-size: 25px;
-            line-height: 48px;
             /* identical to box height, or 192% */
 
             color: #202020;
@@ -52,16 +50,14 @@
         }
 
         .textoEmail {
-            /* Email address */
 
+            /* Email address */
             position: absolute;
-            z-index: 1;
-            background-color: #FFFFFF;
             width: 47px;
-            text-align: center;
             height: 17px;
-            left: 172px;
-            top: calc(50% - 17px/2 - 48.5px);
+            margin-top: 10px;
+            left: 25%;
+
 
             font-family: 'Poppins';
             font-style: normal;
@@ -69,25 +65,29 @@
             font-size: 12px;
             line-height: 17px;
             /* identical to box height, or 142% */
-
+            text-align: center;
             color: #84818A;
-
-
+            /* Base */
+            background: #FFFFFF;
         }
 
         .form-email {
+
             /* Base */
 
-            position: absolute;
-            left: 142px;
+            position: relative;
+            margin-top: 20px;
+            text-align: left;
+            margin-left: 23%;
             width: 393px;
-            top: 44.78%;
-            bottom: 49.89%;
+            height: 48px;
+
 
             background: #FFFFFF;
             border: 1px solid #DCDBDD;
             border-radius: 12px;
 
+            /* eureka22@email.com */
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
@@ -96,50 +96,28 @@
             /* identical to box height */
 
             color: #202020;
+
+
 
         }
 
         .form-password {
             /* Base */
 
-            position: absolute;
-            left: 142px;
+            /* Contraseña */
+
+            position: relative;
+            margin-top: 20px;
+            text-align: left;
+            margin-left: 23%;
             width: 393px;
-            top: 52.33%;
-            bottom: 42.33%;
+            height: 48px;
 
             background: #FFFFFF;
             border: 1px solid #DCDBDD;
             border-radius: 12px;
 
-
-
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 21px;
-            /* identical to box height */
-            
-            color: #202020;
-
-
-
-
-
-
-
-        }
-
-        .forgottenpassword {
-            /* ¿Olvidaste tu contraseña? */
-
-            position: absolute;
-            width: 183px;
-            height: 21px;
-            left: 142px;
-            top: calc(50% - 21px/2 + 113.5px);
-
+            /* Password */
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -147,24 +125,28 @@
             line-height: 21px;
             /* identical to box height */
 
-            color: #47464A;
+            color: #84818A;
+
 
 
         }
 
         .loginbutton {
-
-
             /* Iniciar sesión */
 
-            position: absolute;
+            position: relative;
+            margin-top: 20px;
+            text-align: left;
+            margin-left: 56%;
             width: 164px;
             height: 48px;
-            left: 371px;
-            top: 539px;
+
+            background: #33A3AA;
+            border-radius: 12px;
+            border: none;
 
             /* Iniciar sesión */
-
+            text-align: center;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
@@ -174,22 +156,35 @@
 
             color: #FFFFFF;
 
-            /* Fondo */
 
-            background: #33A3AA;
-            border-radius: 12px;
-            border: 0;
+
+        }
+
+
+        .forgottenpassword {
+            /* ¿Olvidaste tu contraseña? */
+
+            position: absolute;
+            left: 24.4%;
+            top: 61%;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            /* identical to box height */
+            color: #47464A;
+
 
         }
 
         .protected {
             /* Protected by reCAPTC */
 
-            position: absolute;
+            position: relative;
+            margin-left: 23%;
             width: 385px;
-            height: 34px;
-            right: 147px;
-            top: 607px;
+            margin-top: 20px;
 
             font-family: 'Poppins';
             font-style: normal;
@@ -200,20 +195,19 @@
 
             color: #84818A;
 
+
         }
+
+
 
     }
 
 
     .fondo {
-
-
         /* Fondo */
         position: relative;
-        width: 796px;
-        height: 900px;
-        left: 0px;
-        top: 0px;
+        width: 900px;
+        height: 100vh;
 
         background: linear-gradient(180deg, #33A3AA 0%, #107076 100%);
         z-index: -1;
@@ -222,15 +216,13 @@
             /* image 3 */
 
             position: absolute;
-            width: 796px;
-            height: 100%;
+            width: 730px;
+            height: 100vh;
             top: 0px;
 
             /* Fondo */
-            left: 0px;
             opacity: 0.15;
         }
-
 
         .iniciar {
             /* Iniciar sesión */
@@ -247,91 +239,79 @@
             font-size: 48px;
             line-height: 58px;
             /* identical to box height, or 121% */
+
             color: #FFFFFF;
 
 
         }
 
-
         .texto {
             /* Nos alegra tenerte de vuelta y estamos listos para atender tus necesidades. Inicia sesión y continúa aprovechando al máximo nuestra plataforma. */
 
-            position: absolute;
+            position: relative;
             width: 360px;
             height: 72px;
             left: 8.89%;
-            top: 387px;
+            top: calc(50% - 58px/2 - 102px);
 
             font-family: 'Poppins';
             font-style: normal;
-            font-weight: 400;
+            font-weight: 200;
             font-size: 14px;
             line-height: 24px;
             /* or 171% */
 
             color: #FFFFFF;
-
-
-        }
-
-        .notificaciones-tiempo-real {
-            margin-top: 61px;
         }
 
         .item {
-            position: absolute;
-            width: 411px;
-            height: 41px;
-            left: 8.89%;
-            top: 479px;
-        }
-
-        .icon {
-            /* Icon */
             position: relative;
-            width: 24px;
-            height: 24px;
-            margin-top: 1px;
+            height: 72px;
+            left: 8.89%;
+            top: 203px;
+            display: flex;
         }
 
-        .titulo-item {
-            /* Monitoreo integral */
 
-            position: absolute;
-            height: 21px;
-            left: 36px;
-            top: 0;
+        .textoItem {
+            .titulo-item {
+                /* Monitoreo integral */
 
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 21px;
-            /* identical to box height */
+                position: relative;
+                height: 21px;
+                margin-left: 12px;
 
-            color: #FFFFFF;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                /* identical to box height */
+
+                color: #FFFFFF;
+            }
+
+            .descripcion {
+                /* Administra, monitoria mutiples plantas de forma centralizada */
+
+                position: relative;
+                height: 17px;
+                margin-left: 12px;
+                width: 375px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 17px;
+                /* identical to box height, or 142% */
+
+                color: #FFFFFF;
+
+
+            }
         }
 
-        .descripcion {
-            /* Administra, monitoria mutiples plantas de forma centralizada */
-
-            position: absolute;
-            width: 375px;
-            height: 17px;
-            left: 36px;
-            top: 24px;
-
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 17px;
-            /* identical to box height, or 142% */
-
-            color: #FFFFFF;
-
-
-        }
 
 
 

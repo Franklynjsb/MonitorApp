@@ -8,21 +8,23 @@
 
         <!--<p class="textoEmail">Email</p>-->
 
-        <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+        <form #f="ngForm" (ngSubmit)="onLogin()" novalidate class="formulario">
 
-            <input type="email" id="nombre-usuario" name="nombreUsuario" class="form-email" [(ngModel)]="nombreUsuario" required/>
+            <input type="email" id="nombre-usuario" name="nombreUsuario" class="form-email" [(ngModel)]="nombreUsuario"
+                required />
             <label for="" class="textoEmail">Email</label>
 
-            <input type="password" for="password" id="password" name="password" placeholder="Constraseña" class="form-password" [(ngModel)]="password" required/>
+            <input type="password" for="password" id="password" name="password" placeholder="Constraseña"
+                class="form-password" [(ngModel)]="password" required />
             <button class="loginbutton" type="submit"> Iniciar Sesión</button>
 
-            <a href="">
+            <a href="" style="text-decoration: none;">
                 <p class="forgottenpassword">¿Olvidaste tu contraseña?</p>
             </a>
         </form>
 
-        <p class="protected">Protegido por reCAPTCHA y sujeto a la <a href="" style="color: #33A3AA">Política de Privacidad</a> y <a
-                href="" style="color: #33A3AA">Condiciones.</a></p>
+        <p class="protected">Protegido por reCAPTCHA y sujeto a la <a href="" style="color: #33A3AA">Política de
+                Privacidad</a> y <a href="" style="color: #33A3AA">Condiciones.</a></p>
     </div>
 
     <div class="fondo">
@@ -36,25 +38,34 @@
 
         <div class="fondo-items">
             <div class="item monitoreo-integral">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="icon">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M17.0001 20V11H15.0001V4H22.0001L20.0001 9H22.0001L17.0001 20ZM15 13V20H3.99997C2.89997 20 1.99997 19.1 1.99997 18V15C1.99997 13.9 2.89997 13 3.99997 13H15ZM6.24984 15.75H4.74984V17.25H6.24984V15.75ZM12.9998 4V11H3.99976C2.89976 11 1.99976 10.1 1.99976 9V6C1.99976 4.9 2.89976 4 3.99976 4H12.9998ZM6.24984 6.75003H4.74984V8.25003H6.24984V6.75003Z"
                         fill="#FFB84B" />
                 </svg>
 
-                <p class="titulo-item">Monitoreo integral</p>
-                <p class="descripcion">Administra, monitorea mutiples plantas de forma centralizada</p>
+                <div class="textoItem">
+                    <p class="titulo-item">Monitoreo integral</p>
+                    <p class="descripcion">Administra, monitorea mutiples plantas de forma centralizada</p>
+                </div>
             </div>
             <div class="item notificaciones-tiempo-real">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.98951 3.05176e-05C4.46951 3.05176e-05 -0.000488281 4.48003 -0.000488281 10C-0.000488281 15.52 4.46951 20 9.98951 20C15.5195 20 19.9995 15.52 19.9995 10C19.9995 4.48003 15.5195 3.05176e-05 9.98951 3.05176e-05ZM14.2298 16.0001L9.99981 13.4501L5.76981 16.0001L6.88981 11.1901L3.15981 7.96005L8.07981 7.54005L9.99981 3.00005L11.9198 7.53005L16.8398 7.95005L13.1098 11.1801L14.2298 16.0001Z" fill="#FFB84B"/>
-                    </svg>
-                    
-                <p class="titulo-item">Notificaciones en tiempo real</p>
-                <p class="descripcion">Recibi notificaciones en tiempo real sobre las mediciones</p>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="icon">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.98951 3.05176e-05C4.46951 3.05176e-05 -0.000488281 4.48003 -0.000488281 10C-0.000488281 15.52 4.46951 20 9.98951 20C15.5195 20 19.9995 15.52 19.9995 10C19.9995 4.48003 15.5195 3.05176e-05 9.98951 3.05176e-05ZM14.2298 16.0001L9.99981 13.4501L5.76981 16.0001L6.88981 11.1901L3.15981 7.96005L8.07981 7.54005L9.99981 3.00005L11.9198 7.53005L16.8398 7.95005L13.1098 11.1801L14.2298 16.0001Z"
+                        fill="#FFB84B" />
+                </svg>
+
+                <div class="textoItem">
+                    <p class="titulo-item">Notificaciones en tiempo real</p>
+                    <p class="descripcion">Recibi notificaciones en tiempo real sobre las mediciones</p>
+                </div>
             </div>
 
-            <img src="https://firebasestorage.googleapis.com/v0/b/fjqfrontend.appspot.com/o/imagenesDashboard%2Fimage.webp?alt=media&token=0149029e-1960-4cd8-8f74-1f76ec8cbf32" alt="" class="image">
+            <img src="https://firebasestorage.googleapis.com/v0/b/fjqfrontend.appspot.com/o/imagenesDashboard%2Fimage.webp?alt=media&token=0149029e-1960-4cd8-8f74-1f76ec8cbf32"
+                alt="" class="image">
         </div>
 
     </div>
