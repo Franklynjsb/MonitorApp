@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { usuario } from '../model/usuario.model';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -14,6 +15,6 @@ export class UsuarioService {
 
   //Trae el primer perfil
   public getUsuario(): Observable<usuario> {
-    return this.http.get<usuario>(this.URL + 'get/perfil');
+    return this.http.get<usuario>(this.URL + 'get/perfil/1');
   }
 }

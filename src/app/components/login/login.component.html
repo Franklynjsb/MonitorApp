@@ -6,14 +6,20 @@
 
         <h3 class="logintext">Iniciar sesión</h3>
 
-        <p class="textoEmail">Email</p>
-        <input type="email" class="form-email"/>
-        <input type="text" placeholder="Constraseña" class="form-password"/>
+        <!--<p class="textoEmail">Email</p>-->
 
-        <button class="loginbutton"> Iniciar Sesión</button>
-        <a href="">
-            <p class="forgottenpassword">¿Olvidaste tu contraseña?</p>
-        </a>
+        <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+
+            <input type="email" id="nombre-usuario" name="nombreUsuario" class="form-email" [(ngModel)]="nombreUsuario" required/>
+            <label for="" class="textoEmail">Email</label>
+
+            <input type="password" for="password" id="password" name="password" placeholder="Constraseña" class="form-password" [(ngModel)]="password" required/>
+            <button class="loginbutton" type="submit"> Iniciar Sesión</button>
+
+            <a href="">
+                <p class="forgottenpassword">¿Olvidaste tu contraseña?</p>
+            </a>
+        </form>
 
         <p class="protected">Protegido por reCAPTCHA y sujeto a la <a href="">Política de Privacidad</a> y <a
                 href="">Condiciones.</a></p>
