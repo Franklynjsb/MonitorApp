@@ -1,7 +1,10 @@
+<div class="modal" *ngIf="modalSwitch == true">
+    <app-crear-planta></app-crear-planta>
+</div>
 <div class="tabla container">
     <div class="creacion">
         <label for="Plantas" class="titulo">Plantas</label>
-        <button class="crearPlanta">+ Crear nueva planta</button>
+        <button class="crearPlanta" (click)="openModal()">+ Crear nueva planta</button>
     </div>
 
     <div class="plantas container">

@@ -1,0 +1,190 @@
+.modal_body {
+    /* Fondo */
+    position: relative;
+    z-index: 3;
+    width: 380px;
+    height: 290px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+    .crearPlantaTexto {
+        /* Crear nueva planta */
+
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 20px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #000000;
+
+
+    }
+
+    .nombrePlanta {
+        /* Nombre planta */
+
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 20px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        font-feature-settings: 'pnum' on, 'lnum' on;
+
+        color: #838B9E;
+
+    }
+
+    .nombrePlantaInput {
+        /* Container */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 320px;
+        height: 42px;
+        margin-top: 75px;
+        margin-left: 20px;
+
+        background: #FFFFFF;
+        border: 0.929116px solid #C6C9D2;
+        border-radius: 7.43293px;
+
+        /* Ingrese nombre */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        font-feature-settings: 'pnum' on, 'lnum' on;
+
+        color: #BABEC5;
+
+
+
+
+    }
+
+    .pais {
+        /* País */
+
+        position: relative;
+        margin-top: 130px;
+        margin-left: 20px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        font-feature-settings: 'pnum' on, 'lnum' on;
+
+        color: #838B9E;
+
+
+    }
+
+    .paisInput {
+        /* Container */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 320px;
+        height: 42px;
+        margin-top: 155px;
+        margin-left: -30px;
+
+        background: #FFFFFF;
+        border: 0.929116px solid #C6C9D2;
+        border-radius: 7.43293px;
+
+        /* Seleccione país */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        font-feature-settings: 'pnum' on, 'lnum' on;
+
+        color: #BABEC5;
+
+
+
+    }
+
+    .cancelar {
+        /* Fondo */
+
+        position: absolute;
+        width: 100px;
+        height: 36px;
+        margin-left: 70px;
+        margin-top: 65px;
+
+        border: 1px solid #33A3AA;
+        border-radius: 5px;
+
+        /* Cancelar */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+
+        color: #33A3AA;
+
+
+
+    }
+
+    .crear {
+        /* Fondo */
+
+        position: absolute;
+        width: 100px;
+        height: 36px;
+        margin-left: 190px;
+        margin-top: 65px;
+
+        background: #33A3AA;
+        border-radius: 5px;
+        border: none;
+
+        /* Crear */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+
+        color: #FFFFFF;
+
+
+
+    }
+
+
+
+}

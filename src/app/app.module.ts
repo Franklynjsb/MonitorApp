@@ -15,6 +15,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { interceptorProvider } from './services/interceptor-service';
+import { CrearPlantaComponent } from './components/modals/crear-planta/crear-planta.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { interceptorProvider } from './services/interceptor-service';
     TablaComponent,
     IndicadoresComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    CrearPlantaComponent
   ],
   imports: [
     BrowserModule,
