@@ -1,0 +1,111 @@
+.tabla {
+    /* Fondo */
+    left: 20px;
+    position: relative;
+    width: 1262px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+    .creacion {
+        .titulo {
+            /* Plantas */
+
+            position: relative;
+            width: 62px;
+            height: 24px;
+            margin: 15px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height */
+
+            color: #000000;
+
+
+        }
+
+        .crearPlanta {
+            /* Rectangle 4170 */
+
+            position: relative;
+            width: 170px;
+            height: 28px;
+
+            margin: 33px;
+
+            border: 1px solid #B0CAD1;
+            border-radius: 5px;
+
+        }
+    }
+
+    .tablaDePlantas {
+
+        p {
+            /* Argentina */
+            position: relative;
+
+        }
+
+        .tablaTitulajes {
+            /*  País */
+
+            width: 29px;
+            height: 21px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+            align-items: center;
+
+            color: #B0CAD1;
+
+
+        }
+
+        .tablaCuerpo {
+
+            .país {
+                .bandera {
+                    position: absolute;
+                }
+
+                .nombreBandera {
+                    left: 30px;
+                    bottom: 3px;
+                }
+
+
+            }
+
+
+            td {
+                /* Argentina */
+                width: 67.38px;
+                padding-top: 20px;
+                height: 18px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                /* identical to box height */
+                border: 0;
+                
+
+                color: #000000;
+
+
+            }
+        }
+    }
+
+}

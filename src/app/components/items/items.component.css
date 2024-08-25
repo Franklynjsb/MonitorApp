@@ -1,0 +1,89 @@
+.items {
+
+    /* Items */
+    position: relative;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 34px;
+
+
+    margin-top: 65px;
+    margin-bottom: 20px;
+    left: 20px;
+
+    .item {
+        .fondo {
+            /* Fondo */
+
+            position: relative;
+            width: 260px;
+            height: 110px;
+
+            background: #FFFFFF;
+            border-radius: 15px;
+
+            /* Inside auto layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+
+            .text {
+                p {
+                    /* Lecturas OK */
+
+                    position: relative;
+                    height: 18px;
+                    left: 18px;
+                    top: 31px;
+
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    /* identical to box height */
+
+                    color: #8E8EA1;
+                }
+
+                h2 {
+                    /* 1.234 */
+
+                    position: relative;
+                    width: 61.04px;
+                    height: 30px;
+                    left: 18.23px;
+                    top: 18px;
+
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 30px;
+                    /* identical to box height */
+
+                    /* Black */
+                    color: #22242C;
+
+
+                }
+
+                .icon {
+                    position: absolute;
+                    bottom: 45px;
+                    margin-bottom: -20px;
+                    margin-left: 180px;
+                }
+
+            }
+
+        }
+    }
+
+
+}
