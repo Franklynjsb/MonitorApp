@@ -1,3 +1,7 @@
+<div *ngIf="!isLogged" class="background">
+    <app-login></app-login>
+</div>
+
 <div *ngIf="isLogged" class="background">
     <app-siderbar></app-siderbar>
     <app-top></app-top>
