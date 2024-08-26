@@ -18,7 +18,7 @@
                 <th>Acciones</th>
             </thead>
             <tbody class="tablaCuerpo">
-                <tr *ngFor="let Planta of planta">
+                <tr *ngFor="let Planta of plantas">
                     <td>
                         <div class="país">
                             <svg width="18" height="13" viewBox="0 0 18 13" fill="none"
@@ -68,8 +68,9 @@
                     <td>{{Planta.lecturas}}</td>
                     <td>{{Planta.alertasMedias}}</td>
                     <td>{{Planta.alertasRojas}}</td>
+                    
                     <td class="accionesCasilla">
-                        <a href="" class="acciones" (click)="openModalEdit()">
+                        <a class="acciones">
                             <svg width="3" height="13" viewBox="0 0 3 13" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path

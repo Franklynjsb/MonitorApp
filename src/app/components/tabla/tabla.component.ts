@@ -11,7 +11,7 @@ import { Planta } from '../../model/planta';
 })
 export class TablaComponent implements OnInit {
 
-  planta : Planta[] = [];
+  plantas : Planta[] = [];
 
 
   modalSwitch:boolean = false;
@@ -19,8 +19,6 @@ export class TablaComponent implements OnInit {
   constructor(private modalsS: SwitchService, private splanta: SPlantaService, private tokenService: TokenService) {
 
   }
-
-  isLogged = false;
 
   ngOnInit(): void {
 
@@ -30,24 +28,14 @@ export class TablaComponent implements OnInit {
       this.modalSwitch = valor;
     })
 
-    if(this.tokenService.getToken()) {
-      this.isLogged = true;
-    } else {
-      this.isLogged = false;
-    }
-
   }
-
-  openModalEdit(): void {
-    this.modalSwitch = true;
-  };
 
   openModal(): void {
     this.modalSwitch = true;
   };
 
   cargarPlanta() : void {
-    this.splanta.lista().subscribe( data => {this.planta = data;})
+    this.splanta.lista().subscribe( data => {this.plantas = data;})
   };
 
   deletePlanta(id?: number) : void {
