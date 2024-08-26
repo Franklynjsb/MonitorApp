@@ -9,8 +9,8 @@ import { usuario } from '../model/usuario.model';
 })
 export class UsuarioService {
 
-  URL = 'http://localhost:8080/usuarios/';
-
+  //URL = 'http://localhost:8080/usuarios/';
+  URL = 'https://monitorappbackend.onrender.com';
   constructor(private http: HttpClient) { }
 
   //Trae el primer perfil

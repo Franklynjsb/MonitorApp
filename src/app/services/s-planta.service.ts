@@ -8,8 +8,8 @@ import { Observable } from 'rxjs';
 })
 export class SPlantaService {
 
-  plantaURL = 'http://localhost:8080/planta';
-
+  //plantaURL = 'http://localhost:8080/planta';
+  plantaURL = 'https://monitorappbackend.onrender.com';;
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Planta[]>{
