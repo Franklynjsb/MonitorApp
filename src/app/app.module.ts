@@ -16,6 +16,8 @@ import { LoginComponent } from './components/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { interceptorProvider } from './services/interceptor-service';
 import { CrearPlantaComponent } from './components/modals/crear-planta/crear-planta.component';
+import { EditPlantaComponent } from './components/modals/edit-planta/edit-planta.component';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { CrearPlantaComponent } from './components/modals/crear-planta/crear-pla
     IndicadoresComponent,
     HomeComponent,
     LoginComponent,
-    CrearPlantaComponent
+    CrearPlantaComponent,
+    EditPlantaComponent
   ],
   imports: [
     BrowserModule,

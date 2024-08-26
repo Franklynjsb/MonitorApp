@@ -1,0 +1,26 @@
+<div class="modalCrear">
+    <div class="modal_body">
+        <h3 class="crearPlantaTexto">Editar planta</h3>
+
+        <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+            <label for="nombrePlanta" class="nombrePlanta">Nombre planta</label>
+            <input type="text" placeholder="Ingrese nombre" id="nombrePlanta" class="nombrePlantaInput" [(ngModel)]="planta.nombrePlanta" required>
+
+            <label for="país" class="pais">País</label>
+            <input type="text" placeholder="Seleccione país" id="pais" class="paisInput"[(ngModel)]="planta.pais" required>
+            
+            <label for="lecturas" class="lecturas">Cantidad de lecturas</label>
+            <input type="number" placeholder="Ingrese" id="lecturas" class="lecturasInput"[(ngModel)]="planta.lecturas" required>
+
+            <label for="alertasMedias" class="alertasMedias">Alertas Medias</label>
+            <input type="number" placeholder="Ingrese" id="alertasMedias" class="alertasMediasInput"[(ngModel)]="planta.alertasMedias" required>
+
+            <label for="alertasRojas" class="alertasRojas">Alertas Rojas</label>
+            <input type="number" placeholder="Ingrese" id="alertasRojas" class="alertasRojasInput"[(ngModel)]="planta.alertasRojas" required>
+
+        </form>
+
+        <button class="cancelar" (click)="closeModal()">Cancelar</button>
+        <button class="crear" type="submit" (click)="closeModal()">Editar</button>
+    </div>
+</div>
